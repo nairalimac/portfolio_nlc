@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: #1b1b22;
+
+}
+
+
+/* HELLO, */
+.apresentation h2 {
+    position: absolute;
+    left: 122px;
+    top: 220px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 85px;
+    color: #f0f0f0;
+}
+
+/* I’M NAIRA L.C */
+.apresentation h3 {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    left: 122px;
+    top: 325px;
+    font-style: medium;
+    font-weight: 290;
+    font-size: 50px;
+    color: #e2e2e2;
+}
+
+/*FRONT END DEVELOPER */
+.apresentation h4 {
+    position: absolute;
+    left: 122px;
+    top: 419px;
+    font-style: light;
+    font-weight: 220;
+    font-size: 18px;
+    color: #e2e2e2;
+
+}
+
+/* Line Purple Name */
+
+.linePurple {
+    position: absolute;
+    width: 313px;
+    height: 25px;
+    left: 201px;
+    top: 362px;
+    background: #8113C9;
+}
+
+
+/* BUTTON EXPLORE */
+button {
+    position: absolute;
+    font-style: normal;
+    width: 220px;
+    height: 50px;
+    left: 122px;
+    top: 490px;
+    background: #8113C9;
+    color: #e2e2e2;
+    border: 2.5px solid #8113C9;
+    border-radius: 10px;
+}
+
+.behance img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 122px;
+    top: 625px;
+}
+
+.github img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 178px;
+    top: 625px;
+}
+
+.instagram img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 234px;
+    top: 625px;
+}
+
+.picture img {
+    position: absolute;
+    width: 620px;
+    height: 620px;
+    left: 899px;
+    top: 60px;
+}
+
+
+.line-center{
+    position: absolute;
+    width: 100%;
+    top: 800px;
+    border: 1px solid #a0a0a096;
+}
+
+.text-bg{
+    position: absolute;
+    width: 1000px;
+    height: 758px;
+    left: 0px;
+    opacity: 60%;
+    /* top: 143px; */
+}
+
+/*Text About */
+.about h2{
+    position: relative;
+    height: 59px;
+    text-align: center;
+    
+    
+    top: 980px;
+    
+    font-size: 40px;
+    color: #e2e2e2;
+    line-height: 61px;
+       
+}
+
+.text-about{
+    position: absolute;
+    width: 1000px;
+    height: 210px;
+
+
+    left: 240px;
+    top: 1050px;
+    font-weight: 380;
+    font-size: 24px;
+    line-height: 32px;
+    color: #a5a5a5;
+    text-align: center;
+}
+
+
+/*What I Do */
+.what p{
+    position: relative;
+    text-align: center;
+    top: 1450px;
+
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 59px;    
+
+
+    color: #e2e2e2;
+  
+}
+
+
+/*---------SKILLS BOX 1---------*/
+
+.skills-box1 img{
+    position: absolute;
+    left: 32px;
+    bottom: 60.5%;
+}
+
+/*Text */
+
+.skills-box1 p{
+    position: absolute;
+    width: 242px;
+    height: 88px;
+    top: 130px;
+    left: 32px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;    
+    color: #535353;
+}
+
+
+
+.skills-box1{
+    display: inline-flex;
+    margin:20px 2%;
+    position: absolute;
+    width: 349px;
+    height: 241px;
+    left: 136px;
+    top: 1620px;
+    background: #212121;
+
+}
+
+/*---------SKILLS BOX 2---------*/
+
+.skills-box2 img{
+    position: absolute;
+    left: 32px;
+    bottom: 60.5%;
+}
+
+/*Text */
+
+.skills-box2 p{
+    position: absolute;
+    width: 242px;
+    height: 88px;
+    top: 130px;
+    left: 32px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;    
+    color: #535353;
+}
+
+
+.skills-box2{
+    display: flex;
+    margin:20px 2%;
+    position: absolute;
+    width: 350px;
+    height: 241px;
+    left: 545px;
+    top: 1620px;    
+    background: #212121;
+}
+
+/*---------SKILLS BOX 3---------*/
+
+.skills-box3 img{
+    position: absolute;
+    left: 32px;
+    bottom: 60.5%;
+}
+
+/*Text */
+.skills-box3 p{
+    position: absolute;
+    width: 242px;
+    height: 88px;
+    top: 130px;
+    left: 32px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;    
+    color: #535353;
+}
+
+
+
+.skills-box3{
+    display: flex;
+    margin:20px 2%;
+    position: absolute;
+    width: 349px;
+    height: 241px;
+    left: 955px;
+    top: 1620px;
+    background: #212121;
+}
+
+
+/*-------SOFTWARE SKILLS-------*/
+
+.skills{
+    position: relative;
+    text-align: center;
+    top: 1920px;
+
+    
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 59px;
+    color: #e2e2e2;
+  
+}
+
+.icons-skill{
+    position: absolute;
+    top: 2150px;
+    padding: 15px;
+    left: 260px;
+    margin-inline: 100px;
+
+}
+
+.icons-skill img{
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+
+/* FAZER RESPONSIVIDADE DA PAGINA */
